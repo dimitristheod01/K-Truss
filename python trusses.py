@@ -1,6 +1,8 @@
 import random
 import re
-f = open(input("Give a folder : "),"r") # file reading
+#Ask User for file name
+filename = input("Give a file: ")
+f = open(f"data/{filename}", "r")  # file reading
 k = int(input("Enter k: "))
 l = f.readlines() # readlines returns the content of a file in a list 
 

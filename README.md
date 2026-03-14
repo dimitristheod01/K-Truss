@@ -37,6 +37,7 @@ Example:
 2. Enter the filename (e.g., graph1.txt) and the k value when prompted:
 
 Give the file: graph1.txt
+
 Enter k: 3
 
 The script will print all edges that belong to the maximum k-trusses, one per line:
